@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;   
+    background-color:violet;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+    
+}
+
+.heading{
+    margin-top: 50px;
+}
+.srch{
+    padding: 2px;
+    width:100%;
+    background-color:chartreuse;
+    font-size:larger;
+    font-weight:600;
+    height: 100%;
+    font-size: small;
+    object-fit: contain;
+    text-decoration:dotted;
+    
+    
+
+}
+.div1{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 300px;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.div4{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+}
+.wind{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color:aqua;
+    opacity: 0.6;
+    padding: 10px;
+}
+.humidity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color:aqua;
+    opacity: 0.6;
+    padding: 10px;
+}
+
+.clouds{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color:aqua;
+    opacity: 0.6;
+    padding: 10px;
+}
+
+.div2{
+    display: none;
+}
+.afterClick{
+    display: contents;
+    display: flex;
+}
+
+#display{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+/* HTML: <div class="loader"></div> */
+/* .loader{
+    
+    height: 10px;   
+    width: 3px;
+   
+} */
+#image{
+  height: 100px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+}
